@@ -1,0 +1,24 @@
+
+public class arraysFor23 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int[]array=new int [5];
+		
+		array[0]=4;
+		array[1]=43;
+		array[2]=34;
+		array[3]=546;
+		array[4]=9;
+		
+		for(int i=0;i<5;i++) {
+			System.out.println("el resultado de la posicion  " + i+ "es" + array);
+		}
+		
+		
+
+	}
+
+}

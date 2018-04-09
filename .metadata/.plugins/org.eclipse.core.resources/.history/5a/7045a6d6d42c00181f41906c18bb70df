@@ -1,0 +1,14 @@
+
+public class For21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for(int=0; int<10; int++) {
+			System.out.println("juan);
+			
+		}
+		
+	}
+
+}

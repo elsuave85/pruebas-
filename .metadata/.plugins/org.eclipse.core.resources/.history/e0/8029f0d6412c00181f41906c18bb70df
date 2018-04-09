@@ -1,0 +1,33 @@
+import java.util.*;
+public class Adivinanumero19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int aleatorio=(int)(Math.random()*100);
+		Scanner entrada=new Scanner(System.in);
+				
+		int numero=0;
+		System.out.println("introduce numero" );
+		while(numero!=aleatorio) {
+			
+		
+		
+		numero=entrada.nextInt();
+		if (numero>aleatorio) {
+			
+			System.out.println("Introduce un numero mas bajo");
+				}
+		
+		else if (numero<aleatorio)
+{
+	System.out.println("Introduce un numero mas alto");
+		}
+		
+		
+		}
+		System.out.println("Correcto");
+	
+	}	
+
+}

@@ -1,0 +1,37 @@
+import javax.swing.*;
+public class Dowhile20 {
+
+	public static void main(String[] args) {
+	
+		String genero=("");
+		int altura;
+		
+		genero=JOptionPane.showInputDialog("Introduce si eres hombre o mujer");
+		
+		if (genero==("hombre"))
+		{
+			altura=Integer.parseInt(JOptionPane.showInputDialog("Introduce tu altura"));
+			
+			
+		}
+			
+		
+		
+		
+			
+			
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

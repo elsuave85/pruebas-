@@ -1,0 +1,42 @@
+import javax.swing.*;
+public class Dowhile20 {
+
+	public static void main(String[] args) {
+	
+		String genero=("");
+		
+		
+		do {
+			genero=JOptionPane.showInputDialog("iNTROUDUCE  SI ERES HOMMBRE O MUJER (H o M)");
+		}
+		
+			while (genero.equalsIgnoreCase("H")==true && genero.equalsIgnoreCase("M")==true);
+		
+		
+		int altura=Integer.parseInt(JOptionPane.showInputDialog("introduce la altura"));
+		int pesoideal=0;
+		
+		if (genero.equalsIgnoreCase("h")) {
+			
+			pesoideal=altura-110;
+		}
+		
+		else if(genero.equalsIgnoreCase("m")) {
+			pesoideal=altura-120;
+		}
+			System.out.println("tu peso ideal es " + pesoideal );
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
